@@ -28,7 +28,7 @@ metadata:
   name: influxdb
   namespace: monitoring
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: influxdb
   ports:
